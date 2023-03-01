@@ -1,0 +1,106 @@
+button {
+	background-color: blue;
+	color: yellow;
+	border-radius: 4px;
+	cursor: pointer;
+	margin:5px;
+	margin-right: 12px;
+	margin-left: 12px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	font-weight: bold;
+	font-size: 16px;
+	transition: opacity 0.5s;
+}
+		
+button:hover {
+	background-color:pink;
+	opacity: 0.4;
+}
+			
+button:active {
+	background-color: green;
+
+}
+
+header {
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+    border-bottom-color: rgb(50, 120, 130);
+	position: fixed;
+	top: 0;
+    left:0;
+    right: 0;
+    z-index: 200;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	flex:1;
+	background-color: lightblue;
+	opacity: 0.5;
+	justify-content: right;
+}
+
+.div-profile {
+	background: rgba(140, 210, 210, .5);
+	vertical-align: top;
+	display: inline-block;
+	height: 700px;
+	width: 300px;
+	margin-left: 60px;
+	margin-top: 50px;
+}
+
+.div-profile-photo {
+	margin-top: 5px;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+.div-profile-info {
+	vertical-align: top;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	margin-top: 0px;
+}
+.div-main {
+	vertical-align:top;
+	display: inline-block;
+	height: 600px;
+	width: 900px;
+	font-family: Verdana;
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 50px;
+	margin-left: 100px;
+	color: white;
+}
+	
+.thumbnail {
+	width: 290px;
+	height: 300px;
+	object-fit: fit;
+	border: 2px;
+	border-style: solid;
+	border-color: blue;
+	border-radius: 50px;
+}
+
+.logo {
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	margin-top:0px;
+	margin-bottom:0px;
+	object-fit: cover;
+	border: none;
+}
+body {
+  /* This style below will be inherited */
+  font-family: Roboto, Arial;
+  margin: 0;
+  background-color: rgb(28, 28, 0);
+}
