@@ -76,6 +76,7 @@ header {
 .div-main {
 	vertical-align:top;
 	display: inline-block;
+	position: fixed;
 	height: 710px;
 	width: 900px;
 	font-family: Verdana;
