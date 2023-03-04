@@ -85,6 +85,16 @@ header {
 	margin-top: 50px;
 	margin-left: 100px;
 	color: white;
+	justify-content: center;
+}
+
+.child {
+  width: 700px;
+  height: 300px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin: -150px 0 0 -400px;
 }
 	
 .thumbnail {
