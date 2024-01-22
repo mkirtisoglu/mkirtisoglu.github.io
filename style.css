@@ -52,7 +52,7 @@ header {
 	display: inline-block;
 	height: 710px;
 	width: 350px;
-	margin-left: 60px;
+	margin-left: 30px;
 	margin-top: 100px;
 	border: 1px;
 	border-style: outset;
@@ -74,7 +74,6 @@ header {
 	margin-top: 0px;
 }
 .div-main {
-	min-height: 100vh; 
     margin: 0 auto;
 	vertical-align:top;
 	display: inline-block;
@@ -95,7 +94,7 @@ header {
   width: 700px;
   height: 300px;
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 60%;
   margin: -150px 0 0 -400px;
 }
@@ -121,8 +120,116 @@ header {
 }
 body {
   /* This style below will be inherited */
-  display: inline-block;
   font-family: Roboto, Arial;
   margin: 0;
   background-color: rgb(36, 36, 9);
+}
+
+@media only screen and (max-width:749px) {
+	.div-main{
+		width: 69%;
+		
+	}
+	.div-profile-info{
+		width: 100%;
+	}
+	.div-profile-photo{
+		width: 100%;
+	}
+	.div-profile{
+		width: 25%;
+		background: rgba(144, 200, 100, 105);
+	}
+	.child{
+		width: 100%;
+	}
+	.thumbnail{
+		width: 88%;
+		
+	}
+	.logo{
+		width: 8%;
+	}
+
+}
+
+@media only screen and (min-width: 750px) and (max-width:849px) {
+	.div-main{
+		width: 65.5%;
+		
+	}
+	.div-profile-info{
+		width: 100%;
+	}
+	.div-profile-photo{
+		width: 100%;
+	}
+	.div-profile{
+		width: 27%;
+		background: rgba(144, 0, 100, 105);
+	}
+	.child{
+		width: 100%;
+	}
+	.thumbnail{
+		width: 88%;
+		
+	}
+	.logo{
+		width: 8%;
+	}
+
+}
+@media only screen and (min-width: 850px) and (max-width:1049px) {
+	.div-main{
+		width: 60%;
+		
+	}
+	.div-profile-info{
+		width: 100%;
+	}
+	.div-profile-photo{
+		width: 100%;
+	}
+	.div-profile{
+		width: 26%;
+		background: rgba(144, 0, 0, .5);
+	}
+	.child{
+		width: 100%;
+	}
+	.thumbnail{
+		width: 88%;
+		
+	}
+	.logo{
+		width: 8%;
+	}
+
+}
+@media only screen and (min-width: 1050px) and (max-width:1350px) {
+	.div-main{
+		width: 50%;
+		
+	}
+	.div-profile-info{
+		width: 100%;
+	}
+	.div-profile-photo{
+		width: 100%;
+	}
+	.div-profile{
+		width: 26%;
+		background: rgba(44,200, 0, 200);
+	}
+	.child{
+		width: 100%;
+	}
+	.thumbnail{
+		width: 88%;
+	}
+	.logo{
+		width: 8%;
+	}
+
 }
