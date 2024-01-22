@@ -91,6 +91,7 @@ header {
 }
 
 .child {
+  display: inline-block;
   width: 700px;
   height: 300px;
   position: absolute;
@@ -120,6 +121,7 @@ header {
 }
 body {
   /* This style below will be inherited */
+  display: inline-block;
   font-family: Roboto, Arial;
   margin: 0;
   background-color: rgb(36, 36, 9);
