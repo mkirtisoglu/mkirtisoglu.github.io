@@ -122,7 +122,7 @@ body {
   /* This style below will be inherited */
   font-family: Roboto, Arial;
   margin: 0;
-  background-color: rgb(36, 36, 9);
+  background-color: rgb(36, 36, 36);
 }
 
 @media only screen and (max-width:749px) {
