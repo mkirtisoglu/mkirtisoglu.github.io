@@ -151,24 +151,30 @@ body {
 	display: none;
 }
 	.div-profile-info{
+		align-items: flex-end;
 		width: 100%;
 	}
 	.div-profile-photo{
+		align-items: flex-end;
 		width: 100%;
 	}
 	.div-profile{
+		align-items: flex-end;
 		width: 100%;
 		background: rgba(144, 200, 100, 105);
 	}
 	.child{
+		align-items: flex-end;
 		text-align: center:
 		width: 100%;
 	}
 	.thumbnail{
+		align-items: flex-end;
 		width: 88%;
 		
 	}
 	.logo{
+		align-items: flex-end;
 		width: 8%;
 	}
 
@@ -184,24 +190,30 @@ body {
 	display: none;
 	}
 	.div-profile-info{
+		align-items: flex-end;
 		width: 100%;
 	}
 	.div-profile-photo{
+		align-items: flex-end;
 		width: 100%;
 	}
 	.div-profile{
+		align-items: flex-end;
 		width: 100%;
 		background: rgba(144, 0, 100, 105);
 	}
 	.child{
+		align-items: flex-end;
 		text-align: center;
 		width: 100%;
 	}
 	.thumbnail{
+		align-items: flex-end;
 		width: 88%;
 		
 	}
 	.logo{
+		align-items: flex-end;
 		width: 8%;
 	}
 
