@@ -17,7 +17,7 @@
 
 <div class="div-profile">
 	<div class="div-profile-photo">
-	<center><img class="thumbnail" src="img/pp-CV.jpeg"></center>
+	<center><img class="thumbnail" src="img/pp-CV.jpeg" title="Mehmet Kırtışoğlu">></center>
 	</div>
 
 	<div class="div-profile-info">
@@ -39,6 +39,15 @@
 <div class="div-main">
 <div class="child">
 <iframe src="CV.pdf#toolbar=0" style="min-height:86vh;width:100%" ></iframe>
+<hr>
+<br><br>
+<p>Last modified:</p>
+<p id="demo"></p>
+
+<script>
+let text = document.lastModified;
+document.getElementById("demo").innerHTML = text;
+</script>
 </div>
 </div>
 </body>
