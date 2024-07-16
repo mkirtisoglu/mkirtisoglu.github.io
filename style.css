@@ -45,35 +45,6 @@ a:hover {
 a:active {
   color: cyan;
 }
-button {
-	background-color: rgba(0,112,0,0.5);
-	color: rgb(60,120,60);
-	border-radius: 16px;
-	cursor: pointer;
-	margin:4px;
-	margin-right: 12px;
-	margin-left: 12px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	padding-left: 16px;
-	padding-right: 16px;
-	font-weight: bold;
-	font-size: 16px;
-	transition: background-color 0.5s, color 0.5s;
-	border: 2px;
-	border-style: inset;
-	border-color: white;
-}
-		
-button:hover {
-	background-color: rgba(255, 0, 255, .5);
-	color: red;
-}
-			
-button:active {
-	background-color: green;
-
-}
 
 .div-profile {
 	background: rgba(144, 225, 225, .5);
