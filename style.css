@@ -18,8 +18,8 @@ a:active {
   color: cyan;
 }
 button {
-	background-color: rgba(0,100,255,0.9);
-	color: rgb(225,196,225);
+	background-color: rgba(0,112,0,0.5);
+	color: rgb(60,120,60);
 	border-radius: 16px;
 	cursor: pointer;
 	margin:4px;
@@ -141,7 +141,7 @@ body {
   /* This style below will be inherited */
   font-family: Roboto, Arial;
   margin: 0;
-  background-color: rgb(18, 18, 18);
+  background-color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width:749px) {
