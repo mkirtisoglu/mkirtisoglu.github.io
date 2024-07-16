@@ -134,7 +134,7 @@ header {
 	object-fit: cover;
 	border: none;
 }
-body {
+.body{
   /* This style below will be inherited */
   font-family: Roboto, Arial;
   margin: 0;
@@ -142,6 +142,15 @@ body {
 }
 
 @media only screen and (max-width:749px) {
+	.body{
+  /* This style below will be inherited */
+  		font-family: Roboto, Arial;
+  		margin: 0;
+  		background-color: rgb(255, 255, 255);
+  		align-items: flex-end;
+		width: 100%;
+}
+
 	.div-main{
 		align-items: flex-end;
 		width: 100%;
@@ -181,6 +190,14 @@ body {
 }
 
 @media only screen and (min-width: 750px) and (max-width:1200px) {
+		.body{
+  /* This style below will be inherited */
+  		font-family: Roboto, Arial;
+  		margin: 0;
+  		background-color: rgb(255, 255, 255);
+  		align-items: flex-end;
+		width: 100%;
+}
 	.div-main{
 		align-items: flex-end;
 		width: 100%;
