@@ -143,45 +143,51 @@ header {
 
 @media only screen and (max-width:1200px) {
 	.body{
+		lex-wrap:wrap;
 		align-items: flex-end;
 		text-align:center;
 		padding: 0px;
 	
 	.div-main{
+		lex-wrap:wrap;
 		height: 600px
 		align-items: flex-end;
 		width: 100%;
-		padding: 0px;
+		padding: 20px 0 20px;
 		
 	}
 	header {
 	display: none;
 }
 	.div-profile-info{
+		lex-wrap:wrap;
 		align-items: flex-end;
 		height: 200px;
 		width: 100%;
-		padding: 0px;
+		padding: 20px 0 20px;
 	}
 	.div-profile-photo{
+		lex-wrap:wrap;
 		align-items: flex-end;
-		height: 400px;
+		height: 300px;
 		width: 100%;
-		padding: 0px;
+		padding: 20px 0 20px;
 	}
 	.div-profile{
+		lex-wrap:wrap;
 		align-items: flex-end;
 		width: 100%;
 		height: 600px;
 		background: rgba(144, 200, 100, 105);
-		padding: 0px;
+		padding: 20px 0 20px;
 	}
 	.child{
+		flex-wrap:wrap;
 		align-items: flex-end;
 		text-align: center:
 		width: 100%;
 		height: 500px;
-		padding: 0px;
+		padding: 20px 0 20px;
 	}
 
 }
