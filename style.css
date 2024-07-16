@@ -50,7 +50,7 @@ button:active {
 header {
 	border-bottom-width: 6px;
 	border-bottom-style: solid;
-    border-bottom-color: rgb(49, 121, 144);
+    	border-bottom-color: rgb(49, 121, 144);
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -65,7 +65,7 @@ header {
 .div-profile {
 	background: rgba(144, 225, 225, .5);
 	vertical-align: top;
-	display: inline-block;
+	display: flex;
 	height: 560px;
 	width: 350px;
 	margin-left: 30px;
@@ -78,13 +78,13 @@ header {
 
 .div-profile-photo {
 	margin-top: 4px;
-	display: inline-block;
+	display: flex;
 	height: 310px;
 	width: 350px;
 }
 .div-profile-info {
 	vertical-align: top;
-	display: inline-block;
+	display: flex;
 	height: 150px;
 	width: 350px;
 	margin-top: 0px;
@@ -92,7 +92,7 @@ header {
 .div-main {
     margin: 0 auto;
 	vertical-align:top;
-	display: inline-block;
+	display: flex;
 	position: fixed;
 	height: 710px;
 	width: 900px;
@@ -159,7 +159,7 @@ header {
 	}
 
 	.burger-menu{
-		display: none;
+		display: block;
 		position:fixed;
 		width:100%;
 		height: 100vh;
@@ -186,13 +186,13 @@ header {
 		text-align: center;
 	}
 	.body{
-		lex-wrap:wrap;
+		flex-wrap:wrap;
 		align-items: flex-end;
 		text-align:center;
 		padding: 0px;
 	
 	.div-main{
-		lex-wrap:wrap;
+		flex-wrap:wrap;
 		height: 600px
 		align-items: flex-end;
 		width: 100%;
@@ -203,21 +203,21 @@ header {
 	display: none;
 }
 	.div-profile-info{
-		lex-wrap:wrap;
+		flex-wrap:wrap;
 		align-items: flex-end;
 		height: 200px;
 		width: 100%;
 		padding: 20px 0 20px;
 	}
 	.div-profile-photo{
-		lex-wrap:wrap;
+		flex-wrap:wrap;
 		align-items: flex-end;
-		height: 100%;
+		height: 400px;
 		width: 100%;
 		padding: 20px 0 20px;
 	}
 	.div-profile{
-		lex-wrap:wrap;
+		flex-wrap:wrap;
 		align-items: flex-end;
 		width: 100%;
 		height: 600px;
