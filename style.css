@@ -1,3 +1,7 @@
+.header-main{
+}
+
+
 /* unvisited link */
 a:link {
   color: green;
@@ -123,6 +127,9 @@ header {
 	border-style: outset;
 	border-color: white;
 	border-radius: 120px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .logo {
