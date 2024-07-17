@@ -35,6 +35,7 @@
 .header-main-nav ul li{
 	display: inline;
 	float: left;
+	column-gap: 20px;
 	
 }
 .header-main-nav ul li a{
