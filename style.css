@@ -42,20 +42,13 @@
 	padding: 0 10px;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 60px;
-}
-/* unvisited link */
-a:link {
-  color: green;
-}
-
-/* visited link */
-a:visited {
-  color: orange;
+	font-weight: 100;
+	color: black;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: green;
 }
 
 /* selected link */
