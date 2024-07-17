@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Mehmet Kırtışoğlu's Webpage</title>
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon ">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="reset.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+</html>
+<nav class="burger-menu">
+	<ul>
+	<li><a href="index.html">ABOUT</a></li>
+	<li><a href="CV.html">CV</a></li>
+	<li><a href="Research.html">RESEARCH</a></li>
+	<li><a href="Teaching.html">TEACHING</a></li>
+	<li><a href="Contact.html">CONTACT</a></li>
+	</ul>
+</nav>
+<header class="header-main">
+	<nav class="header-main-nav">
+		<ul>
+			<li><a href="index.html">ABOUT</a></li>
+			<li><a href="CV.html">CV</a></li>
+			<li><a href="Research.html">RESEARCH</a></li>
+			<li><a href="Teaching.html">TEACHING</a></li>
+			<li><a href="Contact.html">CONTACT</a></li>
+		</ul>
+	</nav>
+	<div class="burger-menu-btn"></div>
+</header>
+<script src="main.js"></script>
+<body>
+	<div class="div-profile">
+		<div class="div-profile-photo">
+		<center><img class="thumbnail" src="img/pp-research.jpeg" title="Mehmet Kırtışoğlu"></center>
+		</div>
+	
+		<div class="div-profile-info">
+			<center><h2>Mehmet Kırtışoğlu</h2><br>
+			
+			<a href="http://www.fen.bilkent.edu.tr/~cvmath/" target="blank"><img class="logo" src="img/loc-icon.png"></a><br>
+			Bilkent University Department of Mathematics 06800 Ankara, Türkiye<br><br>
+			
+			<b>Contact me:</b><br><br>
+			<a href="mailto:m.kirtisoglu@bilkent.edu.tr" target="blank"><img class="logo" src="img/email-logo.png"></a>&ensp;&ensp;&ensp;
+	
+			<a href="https://twitter.com/mehmetkirtiss" target="blank"><img class="logo" src="img/twitter logo.jpg"></a>&ensp;&ensp;&ensp;
+	
+			<a href="https://www.instagram.com/mehmetkirtiss/" target="blank"><img class="logo" src="img/instagram logo.png"></a>
+			</center>
+		</div>
+	</div>
+	
+	<div class="div-main">
+	<p>
+	<h2> Mehmet Kırtışoğlu's Webpage</h2><br>
+	Hi there! Welcome to my webpage. My name is Mehmet, and I am a budding homotopy theorist.<br> I completed my master's degree 
+	under the supervision of <a href="http://www.fen.bilkent.edu.tr/~yalcine/" target="blank"> Prof. Dr. Ergün Yalçın </a> in the 
+	<a href="http://www.fen.bilkent.edu.tr/~cvmath/" target="blank"> department of
+	mathematics at Bilkent University </a>, in July 2024. <br> 
+	I also received my Bachelor's degree from the Mathematics department of 
+	Bilkent universiy in 2022.
+	</p>
+	<br>
+	<p>
+	My research interest lies in algebraic topology: Homotopy, homology, cohomology, and category theory. I studied the homotopy theory of simplicial objects and the 
+	cohomology of small categories as a part of my master's thesis. In particular, my thesis focuses on R. W. Thomason's homotopy colimit theorem and its cohomology version.
+	My <a href="CV.html">CV</a> is embedded in this website as well.
+	</p>
+	<hr>
+	<br><br>
+	<p>Last modified:</p>
+	<p id="demo"></p>
+	
+	<script>
+	let text = document.lastModified;
+	document.getElementById("demo").innerHTML = text;
+	</script>
+	</div>
+		
+	
+</body>
