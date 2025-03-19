@@ -60,6 +60,11 @@ a{
 	cursor: pointer;
 }
 
+ul.myUL {
+	display: inline-block;
+	text-align: left;
+}
+
 .header-main{
 	position: fixed;
 	top: 0px;
