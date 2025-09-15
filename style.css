@@ -30,8 +30,9 @@ hr {
 }
 
 h2{
+	text-align: center;
 	font-size: 22px;
-	margin-bottom: 15ğx;
+	margin-bottom: 15px;
 	color: #ffffff;
 	font-family: Roboto-italic;
 	text-transform: uppercase;
@@ -189,13 +190,11 @@ ul.myUL {
 
 .div-main {
 	position: relative;
-	height: calc(100vh - 60px);
 	width: 50vw;
 	line-height: 20px;
 	margin-top: 60px;
 	margin-left: 10vw;
 	margin-right: 10vw;
-	font-size: 16px;
 	background: rgba(255,255,255,0.05);
  	border-radius: 15px;
  	box-shadow: 0 4px 25px rgba(0,0,0,0.4);
@@ -318,4 +317,5 @@ ul.myUL {
 
 			
 }
+
 
