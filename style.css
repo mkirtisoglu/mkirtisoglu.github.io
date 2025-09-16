@@ -5,7 +5,7 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
-	background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+	background: linear-gradient(135deg, #1e1e1e);
 	width: 100%;
 	height: calc(100vh - 60px);
   	color: #f5f5f5;
@@ -190,11 +190,11 @@ ul.myUL {
 
 .div-main {
 	position: relative;
-	width: 50vw;
+	width: 55vw;
 	line-height: 20px;
 	margin-top: 60px;
 	margin-left: 10vw;
-	margin-right: 10vw;
+	margin-right: 8vw;
 	background: rgba(255,255,255,0.05);
  	border-radius: 15px;
  	box-shadow: 0 4px 25px rgba(0,0,0,0.4);
@@ -318,6 +318,7 @@ ul.myUL {
 
 			
 }
+
 
 
 
