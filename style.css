@@ -66,6 +66,7 @@ a:hover{
 
 
 ul.myUL {
+	padding-left: 2rem;
 	display: inline-block;
 	text-align: left;
 }
@@ -237,11 +238,13 @@ ul.myUL {
 		margin-right: 10px;
 		width:50px;
 		height:50px;
+		background: rgba(120,120,120,120);
 		background-image: url(img/burger-menu.png), url(img/close.png);
 		background-size: cover;
+		border-radius: 50%;
+		border: 3px solid #ff9800;
 		background-repeat: no-repeat;
 		background-position: center, center left 50px;
-		
 	}
 
 	.burger-menu{
@@ -318,6 +321,7 @@ ul.myUL {
 
 			
 }
+
 
 
 
