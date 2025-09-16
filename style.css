@@ -319,8 +319,15 @@ ul.myUL {
 		word-spacing: 2px;
 	}
 
+	p{
+	text-align: center;
+	font-size: 16px;
+	line-height: 22px;
+	color: #f5f5f5;
+	}
 			
 }
+
 
 
 
