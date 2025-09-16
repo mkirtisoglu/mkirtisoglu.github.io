@@ -273,9 +273,8 @@ ul.myUL {
 	}
 	.burger-menu ul li a{
 		display: block;
-		height: 180%;
 		font-size: 3rem;
-		padding: 30px 0;
+		padding: 20px 0;
 		flex-basis: 100%;
 		text-align: center;
 		color: white;
@@ -320,6 +319,7 @@ ul.myUL {
 
 			
 }
+
 
 
 
