@@ -152,16 +152,14 @@ ul.myUL {
   }
   
   .content {
-	padding: 0 20px;
-	max-height: 0;
-	text-align: left;
-	overflow: hidden;
-	transition: max-height 0.3s ease-out;
+	padding: 15px;
+	margin-bottom: 10px;
 	background: #1e1e1e;
 	border-left: 3px solid #ff9800;
   	border-radius: 0 0 8px 8px;
-	display: flex;
-	flex-direction: column;
+	overflow: hidden;
+	max-height: 0;
+	transition: max-height 0.3s ease-out;
   }
 
 .div-profile {
@@ -322,6 +320,7 @@ ul.myUL {
 
 			
 }
+
 
 
 
