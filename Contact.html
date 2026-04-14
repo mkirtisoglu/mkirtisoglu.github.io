@@ -88,7 +88,19 @@
 			emailLink.innerHTML = user + "&#64;" + domain; // &#64; is the HTML entity for @
 			emailLink.href = "mailto:" + user + "@" + domain;
 		</script>
+	</div>
+	<hr>
+	<br>
+	<p>Last modified:</p>
+	<p id="demo"></p>
+	
+	<script>
+	let text = document.lastModified;
+	document.getElementById("demo").innerHTML = text;
+	</script>
+	<script src="main.js"></script>
+	<br><br>
+</div>
 </div>
 </body>
 </html>
-
