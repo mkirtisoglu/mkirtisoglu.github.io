@@ -11,7 +11,6 @@
 		<link rel="stylesheet" href="reset.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	</head>
-</html>
 <nav class="burger-menu">
 	<ul>
 	<li><a href="index.html">HOME</a></li>
@@ -37,28 +36,32 @@
 	<div class="burger-menu-btn"></div>
 </header>
 <body>
+	<div class="content-wrapper">
 	<div class="div-profile">
 		<div class="div-profile-photo">
-			<center><img class="thumbnail" src="img/pp-CV.jpeg" title="Mehmet Kırtışoğlu"></center>
+			<img class="thumbnail" src="img/pp-CV.jpeg" title="Mehmet Kırtışoğlu">
 		</div>
 
 		<div class="div-profile-info">
-			<center><h2>Mehmet Kırtışoğlu</h2><br>
+			<h2>Mehmet Kırtışoğlu</h2><br>
 			
 			<a href="http://www.fen.bilkent.edu.tr/~cvmath/" target="blank"><img class="logo" src="img/logo.png"></a><br>
 			Bilkent University Department of Mathematics 06800 Ankara, Türkiye<br><br>
 			
 			<b>Contact me:</b><br><br>
-			<a href="mailto:m.kirtisoglu@bilkent.edu.tr" target="blank"><img class="logo" src="img/email-logo.png"></a>&ensp;&ensp;&ensp;
-
-			<a href="https://twitter.com/mehmetkirtiss" target="blank"><img class="logo" src="img/twitter logo.jpg"></a>&ensp;&ensp;&ensp;
-
-			<a href="https://www.instagram.com/mehmetkirtiss/" target="blank"><img class="logo" src="img/instagram logo.png"></a>
-			</center>
-	</div>
+			<div class="social-links">
+				<a href="mailto:m.kirtisoglu@bilkent.edu.tr" target="_blank"><img class="logo" src="img/email-logo.png"></a>
+				<a href="https://twitter.com/mehmetkirtiss" target="_blank"><img class="logo" src="img/twitter logo.jpg"></a>
+				<a href="https://www.instagram.com/mehmetkirtiss/" target="_blank"><img class="logo" src="img/instagram logo.png"></a>
+			</div></div>
 </div>
 
 <div class="div-main">
+	<div style="text-align: center; margin-bottom: 20px;">
+		<a href="Cv-July-2025.pdf" download class="collapsible" style="text-align: center; display: inline-block; width: auto; padding: 10px 20px;">
+			Download CV [PDF]
+		</a>
+	</div>
 <iframe src="Cv-July-2025.pdf#toolbar=0" style="min-height:80vh;width:100%" ></iframe>
 <hr>
 <br>
@@ -72,5 +75,6 @@ document.getElementById("demo").innerHTML = text;
 <script src="main.js"></script>
 <br><br>
 </div>
+</div>
 </body>
-
+</html>
